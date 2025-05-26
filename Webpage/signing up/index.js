@@ -14,8 +14,8 @@ if (window.matchMedia("(min-width: 1000px)").matches) {
 
 submitBtn.addEventListener("click", () => {
   if (emailInput.value.match(validRegex)) {
-    alert("welcome new sub");
     emailInput.value = "";
+    window.locate.href = "https://newspaper-site-finished.vercel.app/"
   } else {
     emailInput.value = "";
     changeColor();
