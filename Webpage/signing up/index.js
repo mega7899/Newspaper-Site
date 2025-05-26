@@ -9,7 +9,7 @@ const validRegex =
 
 if (window.matchMedia("(min-width: 1000px)").matches) {
   newPic.src =
-    "illustration-sign-up-desktop.svg";
+    "https://i.ibb.co/6Rp31v9y/illustration-sign-up-desktop.png";
 }
 
 submitBtn.addEventListener("click", () => {
