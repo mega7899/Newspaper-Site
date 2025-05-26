@@ -1,0 +1,89 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(234, 29%, 20%);
+}
+
+.mobile__container {
+  margin: 200px 15px 0 15px;
+}
+
+.container__info img {
+  margin-bottom: 70px;
+}
+
+.container__info {
+  font-size: 1.15rem;
+  width: 80vw;
+}
+
+.container__info--button {
+  margin-top: 300px;
+}
+
+input[type="button"] {
+  background-color: hsl(235, 18%, 26%);
+  color: white;
+  width: 95vw;
+  padding: 15px;
+}
+
+input[type="button"]:hover {
+  background-image: linear-gradient(to top left, hsl(4, 100%, 67%), red);
+}
+
+@media screen and (min-width: 600px) {
+  .desktop__container {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 30px;
+  }
+
+  .mobile__container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .container__info img {
+    margin-bottom: 0;
+    padding-bottom: 30px;
+  }
+
+  .container__info {
+    width: 50vw;
+    max-width: 350px;
+    padding: 2px;
+  }
+
+  .container__info--button {
+    margin: 0;
+  }
+
+  input[type="button"] {
+    width: 50vw;
+    max-width: 350px;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .container__info {
+    width: 50vw;
+    max-width: 350px;
+  }
+
+  input[type="button"] {
+    width: 50vw;
+    max-width: 350px;
+  }
+}

@@ -1,0 +1,84 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#news__pic {
+  width: 100%;
+}
+
+.news__navs {
+  margin: 30px 20px 0 25px;
+}
+
+.news__details {
+  margin-bottom: 20px;
+}
+
+.news__details:first-child {
+  font-size: 1.12rem;
+}
+
+.news__info {
+  margin-bottom: 20px;
+}
+
+.invald__item + .invald__item {
+  margin-left: 30%;
+}
+
+input[type="email"] {
+  width: 99%;
+  max-width: 1440px;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+input[type="button"] {
+  background-color: hsl(235, 18%, 26%);
+  color: white;
+  border-radius: 8px;
+  margin: 15px 15px 15px 0;
+  width: 99%;
+  padding: 15px;
+}
+
+input[type="button"]:hover {
+  background-image: linear-gradient(to top left, hsl(4, 100%, 67%), red);
+}
+
+@media screen and (min-width: 800px) {
+  .news__navs {
+    margin: 30px 35px 0 35px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    background-color: hsl(235, 18%, 26%);
+  }
+
+  .news__navs {
+    margin-top: 100px;
+  }
+
+  .container {
+    display: flex;
+    background-color: white;
+    flex-direction: row-reverse;
+    border: 1px solid white;
+    border-radius: 30px;
+    position: absolute;
+    top: 25%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 900px;
+    margin: 220px 50px 0 60px;
+    padding: 20px;
+  }
+}

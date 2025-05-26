@@ -1,0 +1,96 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/Practice Code/Newsletter Sign-Up Page/assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <div class="news__assets">
+        <img
+          src="/Practice Code/Newsletter Sign-Up Page/assets/images/illustration-sign-up-mobile.svg"
+          alt="computer pic"
+          id="news__pic"
+        />
+      </div>
+
+      <div class="news__navs">
+        <div class="news__details">
+          <h1>Stay updated!</h1>
+          <br />
+          <p>Join 60,000+ product managers receiving monthly updates on:</p>
+        </div>
+
+        <div class="news__info">
+          <img
+            src="/Practice Code/Newsletter Sign-Up Page/assets/images/icon-list.svg"
+            alt="checkmark"
+          />
+          <span>Product discover and building what matters</span>
+          <br />
+          <img
+            src="/Practice Code/Newsletter Sign-Up Page/assets/images/icon-list.svg"
+            alt="checkmark"
+          />
+          <span>Measuring to ensure updates are a success</span>
+          <br />
+          <img
+            src="/Practice Code/Newsletter Sign-Up Page/assets/images/icon-list.svg"
+            alt="checkmark"
+          />
+          <span>And much more</span>
+        </div>
+
+        <form class="news__inputs">
+          <b class="invald__item">Email address</b>
+          <b class="invald__item" id="invalid__message"></b>
+          <br />
+          <input
+            type="email"
+            name="Email"
+            placeholder="email@company.com"
+            id="news__inputs--email"
+            required
+          />
+          <br />
+          <input
+            type="button"
+            value="Subscribe to monthly newsletter"
+            id="news__Btn"
+          />
+        </form>
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Mega</a>.
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
