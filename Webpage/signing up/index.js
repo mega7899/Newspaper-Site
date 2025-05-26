@@ -15,7 +15,7 @@ if (window.matchMedia("(min-width: 1000px)").matches) {
 submitBtn.addEventListener("click", () => {
   if (emailInput.value.match(validRegex)) {
     emailInput.value = "";
-    window.locate.href = "https://newspaper-site-finished.vercel.app/"
+    window.location.href = "https://newspaper-site-finished.vercel.app/"
   } else {
     emailInput.value = "";
     changeColor();
